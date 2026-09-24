@@ -6,6 +6,50 @@ I use it to explain the direction of the work, document selected results, and po
 
 If something here interests you and you would like more information, want to discuss the work, or want to ask about getting involved, send me a message or open an issue in this repository.
 
+## Current status — September 24, 2026
+
+The work is active and still developing.
+
+So far, I have built and tested a series of deterministic and analytical experiments around explicit character structure, context, attention, residual-state changes, and feed-forward transformation.
+
+Some of the things established so far include:
+
+- a complete printable-ASCII character representation in which all 95 characters remain distinguishable;
+- an executable attention → residual → feed-forward path that can reproduce a fully specified small-context control without ordinary gradient training;
+- several independent contextual analyses that can be compared without replacing one another;
+- a direct relationship between measured contextual co-occurrence and positive attention-scale allocation;
+- measurable improvement when contextual analysis is used to compile corrective state transformations;
+- localization of remaining errors to a small set of structurally close competitors rather than arbitrary characters;
+- evidence that broad contextual support, structural similarity, exact competitor discrimination, and context-specific attribution are related but distinct signals;
+- named context analysis capable of identifying which surrounding character relationships are associated with particular target-versus-competitor distinctions;
+- negative results that ruled out several simpler mechanisms and helped identify where additional structure was required.
+
+Where a result has failed, plateaued, or remained incomplete, that has been retained as part of the research record rather than presented as a success.
+
+### What I am working on now
+
+The current work is focused on understanding **when contextual evidence should be allowed to change a model state and when it should not**.
+
+Recent experiments have shown that more specific contextual information can correct some previously unresolved cases, while in other cases it can leave the same ambiguity in place or introduce a new error.
+
+The present objective is therefore to distinguish:
+
+- contextual relationships associated with successful correction;
+- relationships associated with persistent ambiguity;
+- relationships associated with harmful overcorrection.
+
+The goal is to determine whether those differences can be measured clearly enough to compile a more selective state-transition mechanism.
+
+This remains an active research question.
+
+### If you want to understand how a result was obtained
+
+The public repository intentionally does not expose every implementation detail, private artifact, or working experiment.
+
+If a particular result or milestone interests you and you want to understand **how it was produced**, I am open to considering requests for additional explanation, discussion, or closer research involvement.
+
+Send me a message or open a `Research Interest` issue and identify the specific result or part of the work you want to understand.
+
 ## Current research direction
 
 The current work uses a deliberately small, inspectable domain: the 95 printable ASCII characters.
