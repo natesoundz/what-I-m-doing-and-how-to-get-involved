@@ -1,8 +1,10 @@
 # What I'm Doing and How to Get Involved
 
-I am exploring whether useful machine intelligence can be **compiled from explicit structure, measured relationships, and deterministic transformations**, rather than relying exclusively on ordinary gradient-trained prediction.
+This repository is a public window into the research I am currently working on.
 
-The working research repository is private. This public repository exists to explain the work, publish formal writeups and verified results, and give interested researchers a way to contact me.
+I use it to explain the direction of the work, document selected results, and post important milestones from time to time as the research develops. It is not intended to be a complete copy of my working environment or a public release of the private research laboratory.
+
+If something here interests you and you would like more information, want to discuss the work, or want to ask about getting involved, send me a message or open an issue in this repository.
 
 ## Current research direction
 
@@ -87,20 +89,19 @@ The purpose of this repository is to make the research understandable without ex
 
 ## Interested in the work?
 
-If you are genuinely interested in the research, want to reproduce an idea independently, have a technical criticism, or want to ask about participating:
+This repository is primarily here so people can see what I am working on and follow major milestones as they are reached.
 
-**Open an issue in this repository titled `Research Interest`.**
+I will update it from time to time with further results, clarifications, and important changes in direction.
 
-Tell me:
+If the work interests you and you want more information, want to discuss a result, or want to ask about participating, **send me a message or open an issue in this repository**.
 
-- what part of the work interests you;
-- what your background or relevant experience is, if applicable;
-- whether you want to discuss, reproduce, critique, or contribute;
-- what specifically you would like access to or involvement with.
+You can title the issue:
 
-There is no automatic membership or access to the private laboratory. I will decide case by case whether further access or collaboration makes sense.
+`Research Interest`
 
-You do not need credentials or an academic affiliation to ask.
+and simply tell me what caught your attention and what you would like to know.
+
+There is no automatic membership or access to the private working laboratory. If closer involvement makes sense, we can discuss it directly.
 
 ## Research-use boundary
 
